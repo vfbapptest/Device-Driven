@@ -3,7 +3,7 @@
 int main(){
   char str[20];
   int i;
-  printf("Enter any string->");
+  printf("Enter any string->  ");
   scanf("%s",str);
   printf("The string is->%s",str);
   for(i=0;i<=strlen(str);i++){
